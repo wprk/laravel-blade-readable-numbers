@@ -12,7 +12,7 @@ Adds the `@readable_int` directive to Laravel's Blade templating system. This wa
 You can install the package via composer:
 
 ```bash
-composer require sandervanhooft/laravel-blade-readable-numbers
+composer require heliumargon/laravel-blade-readable-numbers
 ```
 
 ## Usage

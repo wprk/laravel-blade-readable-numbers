@@ -1,20 +1,20 @@
 {
-    "name": "sandervanhooft/laravel-blade-readable-numbers",
+    "name": "heliumargon/laravel-blade-readable-numbers",
     "description": "A blade directive for human readable numbers, k-style.",
     "keywords": [
-        "Sander van Hooft",
+        "heliumargon",
         "laravel-blade-readable-numbers",
         "laravel",
         "blade",
         "human-readable"
     ],
-    "homepage": "https://github.com/sandervanhooft/laravel-blade-readable-numbers",
+    "homepage": "https://github.com/HeliumArgonHA/laravel-blade-readable-numbers",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sander van Hooft",
-            "email": "info@sandervanhooft.com",
-            "homepage": "https://www.sandervanhooft.com",
+            "name": "Alex Tetzlaff",
+            "email": "alex@heliumargon.net",
+            "homepage": "https://heliumargon.net",
             "role": "Developer"
         }
     ],
