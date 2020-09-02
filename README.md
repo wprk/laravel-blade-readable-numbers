@@ -1,8 +1,8 @@
 # Blade directive for short human readable numbers (i.e. 3K+, 4M+)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers)
+<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers)
 [![Build Status](https://img.shields.io/travis/sandervanhooft/laravel-blade-readable-numbers/master.svg?style=flat-square)](https://travis-ci.org/sandervanhooft/laravel-blade-readable-numbers)
-[![Total Downloads](https://img.shields.io/packagist/dt/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers)
+[![Total Downloads](https://img.shields.io/packagist/dt/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers) -->
 <!-- [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://scrutinizer-ci.com/g/sandervanhooft/laravel-blade-readable-numbers) -->
 Adds the `@readable_int` directive to Laravel's Blade templating system. This way you can shorten numbers into strings like `123K+`.
