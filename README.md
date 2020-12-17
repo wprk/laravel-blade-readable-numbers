@@ -1,11 +1,9 @@
 # Blade directive for short human readable numbers (i.e. 3K+, 4M+)
 
-<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers)
-[![Build Status](https://img.shields.io/travis/sandervanhooft/laravel-blade-readable-numbers/master.svg?style=flat-square)](https://travis-ci.org/sandervanhooft/laravel-blade-readable-numbers)
-[![Total Downloads](https://img.shields.io/packagist/dt/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers) -->
-<!-- [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://scrutinizer-ci.com/g/sandervanhooft/laravel-blade-readable-numbers) -->
-Adds the `@readable_int` directive to Laravel's Blade templating system. This way you can shorten numbers into strings like `123K+`.
+<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/wprk/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/wprk/laravel-blade-readable-numbers)
+[![Total Downloads](https://img.shields.io/packagist/dt/wprk/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/wprk/laravel-blade-readable-numbers) -->
+-->
+Adds the `@longInt` directive to Laravel's Blade templating system. This way you can shorten numbers into strings like `123K+`.
 
 ## Installation
 
@@ -18,10 +16,10 @@ composer require heliumargon/laravel-blade-readable-numbers
 ## Usage
 
 ```php
-@readable_int(123456) // outputs 123K+
-@readable_int(123456789) // outputs 123M+
-@readable_int(123456789012) // outputs 123B+
-@readable_int(123456789012345) // outputs 123T+
+@longInt(123456) // outputs 123K+
+@longInt(123456789) // outputs 123M+
+@longInt(123456789012) // outputs 123B+
+@longInt(123456789012345) // outputs 123T+
 ```
 
 ### Testing
@@ -40,17 +38,15 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email info@sandervanhooft.com instead of using the issue tracker.
+If you discover any security related issues, please email info@wprk.com instead of using the issue tracker.
 
 ## Credits
 
-- [Sander van Hooft](https://github.com/sandervanhooft) - [www.sandervanhooft.com](https://www.sandervanhooft.com)
+- [Sander van Hooft](https://github.com/SanderVanHooft) - [www.sandervanhooft.com](https://www.sandervanhooft.com)
+- [Will Parker](https://github.com/wprk) - [www.wipar.co.uk](https://www.wipar.co.uk)
 - [Appstract](https://github.com/appstract/laravel-blade-directives) for blade directive testing methods
 - [Radley Sustaire (RadGH)](https://github.com/RadGH) and [Hassan Amir Khan (hassanamirkhan)](https://github.com/hassanamirkhan) for [the short-number-format gist](https://gist.github.com/RadGH/84edff0cc81e6326029c).
 - [All Contributors](../../contributors)
-
-## Never miss a new package release
-Subscribe to the newsletter at [sandervanhooft.com](http://www.sandervanhooft.com) to learn about the latest Laravel packages and tricks.
 
 ## License
 

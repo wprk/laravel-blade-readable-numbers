@@ -1,6 +1,6 @@
 <?php
 
-namespace SanderVanHooft\ReadableNumbers;
+namespace Wprk\ReadableNumbers;
 
 class ReadableNumber
 {

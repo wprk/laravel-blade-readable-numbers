@@ -1,6 +1,6 @@
 <?php
 
-namespace SanderVanHooft\Tests\ReadableNumbers\Concerns;
+namespace Wprk\Tests\ReadableNumbers\Concerns;
 
 trait RendersBlade
 {

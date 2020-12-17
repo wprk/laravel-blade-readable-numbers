@@ -1,6 +1,6 @@
 <?php
 
-namespace SanderVanHooft\ReadableNumbers;
+namespace Wprk\ReadableNumbers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -12,8 +12,8 @@ class ReadableNumbersServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Blade::directive('readable_int', function ($expression) {
-            return sprintf('<?php echo \SanderVanHooft\ReadableNumbers\ReadableNumber::format(%s) ; ?>', $expression);
+        Blade::directive('longInt', function ($expression) {
+            return sprintf('<?php echo \Wprk\ReadableNumbers\ReadableNumber::format(%s) ; ?>', $expression);
         });
     }
 

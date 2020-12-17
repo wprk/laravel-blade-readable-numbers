@@ -1,9 +1,9 @@
 <?php
 
-namespace SanderVanHooft\Tests\ReadableNumbers;
+namespace Wprk\Tests\ReadableNumbers;
 
 use Orchestra\Testbench\TestCase;
-use SanderVanHooft\Tests\ReadableNumbers\Concerns\RendersBlade;
+use Wprk\Tests\ReadableNumbers\Concerns\RendersBlade;
 
 abstract class BaseTestCase extends TestCase
 {
@@ -11,14 +11,14 @@ abstract class BaseTestCase extends TestCase
 
     protected function getPackageProviders($app)
     {
-        return ['SanderVanHooft\ReadableNumbers\ReadableNumbersServiceProvider'];
+        return ['Wprk\ReadableNumbers\ReadableNumbersServiceProvider'];
     }
 
     protected function withPackageMigrations()
     {
         // Example migration run
         // include_once __DIR__.'/database/migrations/CreateUsersTable.php';
-        // (new \SanderVanHooft\Tests\Skeleton\Database\Migrations\CreateUsersTable())->up();
+        // (new \Wprk\Tests\Skeleton\Database\Migrations\CreateUsersTable())->up();
     }
 
     /**
